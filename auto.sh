@@ -6,7 +6,7 @@ sleep 1
 
 echo fetching new sshd config...
 
-wget https://raw.githubusercontent.com/TsukasaCh/RootSSH/refs/heads/main/sshd_config
+wget -O /etc/ssh/sshd_config https://raw.githubusercontent.com/TsukasaCh/RootSSH/refs/heads/main/sshd_config
 
 sleep 1
 
